@@ -1,7 +1,7 @@
 {
-  "name": "vitejs-lit-ts",
+  "name": "prpr.cat",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/my-element.es.js",
   "exports": {
