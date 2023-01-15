@@ -10,6 +10,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "giscus": "^1.2.6",
     "lit": "^2.6.0"
   },
   "devDependencies": {

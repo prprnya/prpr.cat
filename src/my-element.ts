@@ -1,6 +1,7 @@
 import { LitElement, css, html } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
 import litLogo from './assets/lit.svg'
+import 'giscus'
 
 /**
  * An example element.
@@ -39,6 +40,22 @@ export class MyElement extends LitElement {
         </button>
       </div>
       <p class="read-the-docs">${this.docsHint}</p>
+      <giscus-widget
+        id="giscus"
+        host=${`https://giscus.${import.meta.env.VITE_BASE_DOMAIN}`}
+        repo="prprnya/prprnya"
+        repoid="R_kgDOGzEIIg"
+        category="Announcements"
+        categoryid="DIC_kwDOGzEIIs4COa9T"
+        mapping="pathname"
+        strict="1"
+        reactionsenabled="1"
+        emitmetadata="1"
+        inputposition="top"
+        theme="preferred_color_scheme"
+        lang="en"
+        loading="lazy"
+      ></giscus-widget>
       <footer>
         <a href="https://icp.gov.moe/?keyword=20232300" target="_blank">萌ICP备20232300号</a>
       </footer>
