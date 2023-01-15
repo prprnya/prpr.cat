@@ -39,6 +39,9 @@ export class MyElement extends LitElement {
         </button>
       </div>
       <p class="read-the-docs">${this.docsHint}</p>
+      <footer>
+        <a href="https://icp.gov.moe/?keyword=20232300" target="_blank">萌ICP备20232300号</a>
+      </footer>
     `
   }
 
